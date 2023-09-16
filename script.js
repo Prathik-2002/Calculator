@@ -8,22 +8,18 @@ function findSolution(expression){
 }
 
 function prec(oprt){
- if(oprt=="(")
- return 4;
-else if(oprt=="^")
-return 3
- else if(oprt=="*"||oprt=="/")
- return 2;
- if(oprt=="+"||oprt=="-")
- return 1;
- if(oprt==")")
- return 0;
+    if(oprt=="(")
+        return 4;
+    else if(oprt=="^")
+        return 3
+    else if(oprt=="*"||oprt=="/")
+        return 2;
+    if(oprt=="+"||oprt=="-")
+        return 1;
+    if(oprt==")")
+        return 0;
 }
 
-
-function findSolution(){
-    // Expression
-}
 var o = 0;
 
 function init(){
